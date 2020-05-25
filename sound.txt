@@ -1,4 +1,4 @@
-How to fix volume control (ALSA problem)
+#1.How to fix volume control (ALSA problem)
 
 Post by wagalaweia » Thu Jan 12, 2012 4:41 am
 Hi!
@@ -35,3 +35,20 @@ switch = mute
 volume = ignore
 
 Then, the Master channel should be ignored, while the PCM channels gets affected correctly. You have to reboot your PC to let these changes take effect!
+
+// 2.@Matthew Pirocchi
+Open /etc/pulse/default.pa with an editor. Keep in mind that it
+requires root privileges to be modified. On line 54, change:
+
+load-module module-udev-detect
+
+to:
+
+load-module module-udev-detect ignore_dB=1
+
+Save the file, and in a Terminal, use:
+
+killall pulseaudio
+
+PA will respawn automatically.
+
