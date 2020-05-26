@@ -36,7 +36,7 @@ volume = ignore
 
 Then, the Master channel should be ignored, while the PCM channels gets affected correctly. You have to reboot your PC to let these changes take effect!
 
-// 2.@Matthew Pirocchi
+# 2.@Matthew Pirocchi
 Open /etc/pulse/default.pa with an editor. Keep in mind that it
 requires root privileges to be modified. On line 54, change:
 
@@ -52,5 +52,5 @@ killall pulseaudio
 
 PA will respawn automatically.
 
-// 3. I have a "fix" based on someone else's idea:
+# 3. I have a "fix" based on someone else's idea:
 Open /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf and change the LFE and Master sections so 'volume = ignore'. Then open alsamixer in a terminal, and set Master and LFE to 100%. You should now find that the volume hotkeys now control just PCM.
