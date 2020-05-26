@@ -1,4 +1,4 @@
-## 1. Save/restore settings
+### 1. Save/restore settings
 
 tar cvzf configs-backup.tgz .config/
 
