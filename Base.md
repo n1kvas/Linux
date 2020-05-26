@@ -1,7 +1,7 @@
 ### 1. Save/restore settings
 
-tar cvzf configs-backup.tgz .config/
+  tar cvzf configs-backup.tgz .config/
 
-tar -xvf config-backup.tgz
+  tar -xvf config-backup.tgz
 
 
