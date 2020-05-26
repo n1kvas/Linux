@@ -1,4 +1,4 @@
-
+## 1. Switch to testing repos
 cd /etc/apt/
 sudo cp sources.list sources.list.backup
 
@@ -13,4 +13,3 @@ sudo apt-get dist-upgrade
 sudo apt-get autoremove 
 sudo reboot
 
-libgcc-8-dev (< 8.4.0-2~) 
