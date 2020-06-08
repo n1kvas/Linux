@@ -11,3 +11,6 @@ xinput set-int-prop <properties>
   
 synclient -l
 synclient property#
+
+
+plasma-wayland-session
