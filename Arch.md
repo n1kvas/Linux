@@ -1,3 +1,10 @@
+## t460s
+
+pacman -S powerdevil
+
+
+## t450s
+
 [https://www.one-tab.com/page/mNe2RD-sTxa-2cxE4SWFuA](https://www.one-tab.com/page/mNe2RD-sTxa-2cxE4SWFuA)
 
   Synaptics
