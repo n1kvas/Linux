@@ -1,6 +1,6 @@
 ## Basic Commands
-
-Tab completion
+```
+ Tab completion
 sudo
 su
 exit
@@ -20,8 +20,10 @@ chown user:group (change ownership)
 man command (shows manual)
 ProTip: Install most and export PAGER=most for more color
 
-## Advanced Commands
 
+```
+## Advanced Commands
+```
 history (shows history)
 !lastcommand (rerun last command after !)
 echo VARIABLE (Example: echo $SHELL)
@@ -34,6 +36,7 @@ ip addr OR ifconfig (Check your IP Address)
 curl ifconfig.me (Check external IP Address)
 top and htop (see processes)
 
+```
 ## More
 
 
