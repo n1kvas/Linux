@@ -7,7 +7,7 @@ exit
 ls
 ls -a -al
 lsblk
-more 
+| more 
 cd
 mkdir
 rm -Rf
